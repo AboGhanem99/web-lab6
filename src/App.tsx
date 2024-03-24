@@ -3,7 +3,7 @@ import Navbar from "./Elements/Navbar";
 import Blocks from "./Elements/Blocks";
 import MyCalendar from "./Elements/MyCalendar";
 import MySlider from "./Elements/MySlider";
-import SearchBar from "./Elements/SearchBar";
+// import SearchBar from "./Elements/SearchBar";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Blocks />
       <MyCalendar />
       <MySlider />
-      <SearchBar />
+      {/* <SearchBar /> */}
     </div>
   );
 };
